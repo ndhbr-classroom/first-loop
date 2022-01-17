@@ -20,7 +20,12 @@ def test_print_name(capfd):
     out, err = capfd.readouterr()
 
     err = """Deine Funktion wurde auf einen zufälligen Namen getestet.
-    Überprüfe deine Ausgabe, ob wirklich jedes Zeichen stimmt (mit Groß-
-    und Kleinschreibung)"""
+    Überprüfe deine Ausgabe, ob wirklich jedes Zeichen stimmt (Groß-
+    und Kleinschreibung, einheitliche Einrückungen, richtiger Zähler, ...).
+
+    Vergleiche die Beispiellösung aus der Aufgabe mit deinem Ergebnis.
+    
+    Probiere dein Programm aus, ob es mit derselben Eingabe das
+    gleiche Ergebnis erzielt."""
 
     assert out == f'{name} 0\n{name} 1\n{name} 2\n', err
