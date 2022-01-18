@@ -93,4 +93,7 @@ und probier aus! :)
     for i in range(count):
         print(f'{name} {count}')
   ```
+
+>Tipp: Achte immer darauf, dass die Zeilen richtig eingerückt sind!
+
 </details>
