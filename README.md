@@ -83,3 +83,14 @@ python main.py
 ```
 
 und probier aus! :)
+
+## Lösung
+<details>
+  <summary>Nur aufklappen, wenn du wirklich Hilfe brauchst! Probiere es zuerst ohne Lösung.</summary>
+  
+  ### loop.py
+  ```python
+    for i in range(count):
+        print(f'{name} {count}')
+  ```
+</details>

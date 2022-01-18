@@ -1,4 +1,4 @@
-# Print your name 5 times
+# Print your name n times
 def print_name(name, count):
 
     # TODO: Use a for loop to print your name 5 times 
