@@ -91,7 +91,7 @@ und probier aus! :)
   ### loop.py
   ```python
     for i in range(count):
-        print(f'{name} {count}')
+        print(f'{name} {i}')
   ```
 
 >Tipp: Achte immer darauf, dass die Zeilen richtig eingerückt sind!
